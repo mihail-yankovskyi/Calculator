@@ -1,0 +1,72 @@
+.main {
+  border: 3px solid black;
+  height: 550px;
+  width: 400px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 8%;
+  .display {
+    width: 350px;
+    height: 70px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    display: flex;
+    // justify-content: end;
+    align-items: center;
+    .displayedNumber {
+      height: 60px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-right: 10px;
+      font-size: 50px;
+      opacity: 0.8;
+      justify-content: end;
+    }
+  }
+  .control {
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 3px;
+  }
+  .floor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    cursor: pointer;
+    font-size: x-large;
+  }
+  .buttons:hover{
+    background-color: rgba(134, 134, 134, 0.2);
+  }
+  .C {
+    color: red;
+  }
+  .symbols {
+    color: brown;
+    font-weight: bolder;
+  }
+  .equal {
+    background-color: rgba(134, 134, 134, 0.3);
+    font-weight: bolder;
+    color: darkgreen;
+  }
+  .numbers {
+    font-size: xx-large;
+    opacity: 0.7;
+  }
+}
